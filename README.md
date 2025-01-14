@@ -60,12 +60,13 @@ Active Directory Setup
 </p>
 <br>
 
-<h3>BONUS</h3>
+   <p>  <img width="823" alt="Screenshot 2025-01-10 at 3 21 32 PM" src="https://github.com/user-attachments/assets/0957a59b-6f8d-40b9-b568-a047f70b5756" /></p>
+ <p>In PowerShell type "ipconfig /displaydns" to see the DNS cache still has 10.0.0.4 for mothership.</p>
 
-<img width="454" alt="Screenshot 2025-01-10 at 2 56 19 PM" src="https://github.com/user-attachments/assets/e7b28b81-6797-4d5f-8854-3275bb2bc8e2" />
+<p><img width="857" alt="Screenshot 2025-01-10 at 3 22 44 PM" src="https://github.com/user-attachments/assets/2d8148bc-bdaf-4d0d-aa82-dd5c72be2e09" /></p>
 
-<p>Back in Client-1 as any user, go to Start and search for Event Viewer but open it as an administrator. We can use Jane.Admin here.</p>
-<br>
+<p>Type "ipconfig /flushdns" and then "ipconfig /dnsdisplay". This will flush the DNS cache.</p>
+  <br>
 <p><img width="1330" alt="Screenshot 2025-01-10 at 2 58 22 PM" src="https://github.com/user-attachments/assets/5731fe4d-4f93-4d76-ac8e-acf30d68b2de" /></p>
 
 <p>Event Viewer allows us to view security logs. On the left hand side go to Windows Logs -> Security</p>
