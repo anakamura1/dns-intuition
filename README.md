@@ -67,11 +67,25 @@ Active Directory Setup
 
 <p>Type "ipconfig /flushdns" and then "ipconfig /dnsdisplay". This will let us see the emptied DNS cache.</p>
   <br>
-<p><img width="1330" alt="Screenshot 2025-01-10 at 2 58 22 PM" src="https://github.com/user-attachments/assets/5731fe4d-4f93-4d76-ac8e-acf30d68b2de" /></p>
+  <h3>
+    CNAME
+  </h3>
+<table>
+  <tr>
+    <td>
+      <img width="966" alt="Screenshot 2025-01-10 at 3 23 29 PM" src="https://github.com/user-attachments/assets/106444bf-da12-4fec-9bf6-d392c20886f8" />
+    </td>
+    <td>
+      <img width="400" alt="Screenshot 2025-01-10 at 3 24 46 PM" src="https://github.com/user-attachments/assets/d88162d7-57d7-4624-88d4-9b94ddca43ab" />
+    </td>
+  </tr>
+</table>
 
-<p>Event Viewer allows us to view security logs. On the left hand side go to Windows Logs -> Security</p>
-<p>Right click on Security and click Find. Enter in the user name we were trying to log in as with the wrong password earlier. We can view the failed log in attempts we made.
+<p>Within DNS manager add a new CNAME. Use "search" and link it to google.com</p>
+
+<p><img width="858" alt="Screenshot 2025-01-10 at 3 25 55 PM" src="https://github.com/user-attachments/assets/8cdc347e-77f9-4963-a012-be776125692c" />
 </p>
+<p>Within PowerShell enter "nslookup search" and notice that it looks up google.com's IP address. </p>
 
 
 
