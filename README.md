@@ -41,18 +41,10 @@ Active Directory Setup
 <p>Type in "mothership" and have the record resolve it to the domain controller server's IP address.</p>
 <p></p>
   <br>
-<table>
-  <tr>
-    <td>
-      <img width="855" alt="Screenshot 2025-01-10 at 2 45 52 PM" src="https://github.com/user-attachments/assets/20b08275-5241-49f8-b9e9-223f32dfe167" />
-    </td>
-    <td>
-      <img width="252" alt="Screenshot 2025-01-10 at 2 47 30 PM" src="https://github.com/user-attachments/assets/419568a0-17f4-4216-adbc-1f95cb5a6161" />
-    </td>
-  </tr>
-</table>
-<p>Log into Client-1 as Jane.Admin and employ the Group Policy Object (GPO) enter gpupdate /force into PowerShell. Make sure to open PowerShell as administrator. Then log out.</p>
-<p>Once updated, try logging into Client-1 as any one of the users within the domain but put in the wrong password 6 times. A lockout message should appear.</p>
+
+  <p><img width="857" alt="Screenshot 2025-01-10 at 3 17 24 PM" src="https://github.com/user-attachments/assets/6e457ff1-b50a-4e47-aeca-39a4e8b02190" /></p>
+
+<p>In PowerShell if we ping "mothership" we will notice the IP address that it pings.</p>
 <br>
 
 <p><img width="756" alt="Screenshot 2025-01-10 at 2 49 33 PM" src="https://github.com/user-attachments/assets/d84db84b-7aa8-46d8-88e8-970195dee9d7" /></p>
