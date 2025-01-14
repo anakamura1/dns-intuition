@@ -65,7 +65,7 @@ Active Directory Setup
 
 <p><img width="857" alt="Screenshot 2025-01-10 at 3 22 44 PM" src="https://github.com/user-attachments/assets/2d8148bc-bdaf-4d0d-aa82-dd5c72be2e09" /></p>
 
-<p>Type "ipconfig /flushdns" and then "ipconfig /dnsdisplay". This will flush the DNS cache.</p>
+<p>Type "ipconfig /flushdns" and then "ipconfig /dnsdisplay". This will let us see the emptied DNS cache.</p>
   <br>
 <p><img width="1330" alt="Screenshot 2025-01-10 at 2 58 22 PM" src="https://github.com/user-attachments/assets/5731fe4d-4f93-4d76-ac8e-acf30d68b2de" /></p>
 
