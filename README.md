@@ -47,15 +47,17 @@ Active Directory Setup
 <p>In PowerShell if we ping "mothership" we will notice the IP address that it pings.</p>
 <br>
 
-<p><img width="756" alt="Screenshot 2025-01-10 at 2 49 33 PM" src="https://github.com/user-attachments/assets/d84db84b-7aa8-46d8-88e8-970195dee9d7" /></p>
-<p>Back in DC-1, oepn Active Directory Users & Computers, in _EMPLOYEES find the user that we locked out (bod.wex) in this case and unlock their account.</p>
+<img width="1241" alt="Screenshot 2025-01-10 at 3 18 03 PM" src="https://github.com/user-attachments/assets/d611b6f4-a122-405e-870f-2d4b1ca61e83" />
+<p>Back within DNS manager, change the IP address to 8.8.8.8</p>
 
 <br>
 
-<p><img width="753" alt="Screenshot 2025-01-10 at 2 52 44 PM" src="https://github.com/user-attachments/assets/700057df-de4f-46c6-82cb-9fc498f8c585" />
+<img width="856" alt="Screenshot 2025-01-10 at 3 19 02 PM" src="https://github.com/user-attachments/assets/1fc2d923-64be-4af6-93d5-3eeef83544a7" />
 </p>
-<p>After the account is unlocked, try logging into Client-1 as that user. </p>
-<p>We can also easily reset a users password here by right clicking their name.</p>
+<p>Ping "mothership" again in PowerShell and notice that it still pings 10.0.0.4</p>
+<p>
+  This is due to the DNS cache still having mothership as 10.0.0.4
+</p>
 <br>
 
 <h3>BONUS</h3>
