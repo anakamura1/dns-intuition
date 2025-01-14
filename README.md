@@ -8,7 +8,7 @@ This tutorial will help build general intuition and understanding of how Domain 
 <h2>Prerequisites</h2>
 See the links below to set up for this lab:
 Creating Virtual Machines www.github.com/anakamura1/vm-creation
-Active Directory Setup
+Active Directory Setup www.github.com/anakamura1/ad-configuration
 
 <h2>Environments and Technologies Used</h2>
 
@@ -62,7 +62,7 @@ Active Directory Setup
 
    <p>  <img width="823" alt="Screenshot 2025-01-10 at 3 21 32 PM" src="https://github.com/user-attachments/assets/0957a59b-6f8d-40b9-b568-a047f70b5756" /></p>
  <p>In PowerShell type "ipconfig /displaydns" to see the DNS cache still has 10.0.0.4 for mothership.</p>
-
+<br>
 <p><img width="857" alt="Screenshot 2025-01-10 at 3 22 44 PM" src="https://github.com/user-attachments/assets/2d8148bc-bdaf-4d0d-aa82-dd5c72be2e09" /></p>
 
 <p>Type "ipconfig /flushdns" and then "ipconfig /dnsdisplay". This will let us see the emptied DNS cache.</p>
@@ -82,7 +82,7 @@ Active Directory Setup
 </table>
 
 <p>Within DNS manager add a new CNAME. Use "search" and link it to google.com</p>
-
+<br>
 <p><img width="858" alt="Screenshot 2025-01-10 at 3 25 55 PM" src="https://github.com/user-attachments/assets/8cdc347e-77f9-4963-a012-be776125692c" />
 </p>
 <p>Within PowerShell enter "nslookup search" and notice that it looks up google.com's IP address. </p>
